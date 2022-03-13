@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-color : rgb(99, 99, 99);
+    
+}
+.links{
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links .link {
+    background-color: antiquewhite;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 6px;
+    font-size: 24px;
+}
+.search .form-group button{
+    margin: 10px;
+}
+.card {
+    height: 100%;
+}
