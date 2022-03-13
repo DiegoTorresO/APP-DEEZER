@@ -5,7 +5,8 @@ import React from 'react';
 const Footer = () =>{
     return(
         <nav className="navbar navbar-dark bg-danger mb-4">
-            <p className="navbar-brand mx-auto">Grupo 2 DWEC</p>
+            <p className="navbar-brand mx-auto">Grupo 2 DWEC</p><hr/>
+            <a className="navbar-brand mx-auto" href="https://github.com/DiegoTorresO/APP-DEEZER"><i class="fa-brands fa-2x fa-github"></i></a> 
         </nav>
     )
 }
