@@ -69,8 +69,8 @@ class Home extends Component{
                     </div>
                     <div className="card-footer">
                         <div className="links">
-                            <Link to={`/details/${item.id}`} className="link"><i className="fas fa-info text-info"></i></Link>
-                            <a onClick={() => this.addToFavorites(item)} className="link"><i className="fas fa-star text-info"></i></a>
+                            <Link to={`/details/${item.id}`} className="link"><i class="fa-solid fa-play text-info"></i></Link>
+                            <a onClick={() => this.addToFavorites(item)} className="link"><i class="fa-solid fa-heart text-danger"></i></a>
                         </div>
                     </div>
                 </div>
